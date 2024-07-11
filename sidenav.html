@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar & Top Navbar</title>
+    <link rel="stylesheet" href="1styles.css">
+    <script src="script.js"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ <script src="1script.js" defer></script>
+
+</head>
+<body>
+    <div class="wrapper hover_collapse">
+        <!-- Top Navbar -->
+        <nav class="top_navbar">
+            <div class="logo">Billn'Wow</div>
+
+
+            <div class="icons">
+
+                   <div class="icon sun-icon" onclick="toggleDarkMode()">
+                    <img src="7721593.png" alt="Sun Icon">
+                </div>
+                <div class="icon profile-icon" onclick="toggleDropdown()">
+                    <img src="4174470.png" alt="Profile Icon">
+                    
+<div class="dropdown-menu" id="dropdownMenu">
+    <a href="#">Logout</a>
+    <a href="#">Change Password</a>
+</div>
+
+
+
+
+                </div>
+
+        </nav>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar_inner">
+                <ul>
+                    <li><a href="#"><span class="icon"><i class="fa fa-qrcode"></i></span><span class="text">Dashboard</span></a></li>
+                    <li><a href="#"><span class="icon"><i class="fa fa-link"></i></span><span class="text">Shortcuts</span></a></li>
+                    <li><a href="#"><span class="icon"><i class="fa fa-eye"></i></span><span class="text">Overview</span></a></li>
+                    <li><a href="#"><span class="icon"><i class="fa fa-book"></i></span><span class="text">Event</span></a></li>
+                    <li><a href="#"><span class="icon"><i class="fa fa-question-circle"></i></span><span class="text">About</span></a></li>
+                    <li><a href="#"><span class="icon"><i class="fa fa-pen"></i></span><span class="text">Service</span></a></li>
+                    <li><a href="#"><span class="icon"><i class="fa fa-id-card"></i></span><span class="text">Contact</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+  
+</body>
+</html>
